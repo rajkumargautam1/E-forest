@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.topbar {
+    background-color: green;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container-fluid {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.tophead_left ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tophead_left li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.gov, .ministry {
+    display: block;
+}
+
+.lang-hin {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    .container-fluid {
+        width: 100%;
+    }
+
+    .tophead_left li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+.right {
+    margin-left: auto;
+    margin-top: -22px;
+}
+
+.right nav {
+    text-align: right;
+}
+
+.right nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+}
+
+.right nav li {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.right nav li:first-child {
+    margin-left: 0; /* Remove margin for the first item */
+}
+
+.right nav li:hover {
+    color: red; /* Change color on hover */
+}
+.separation {
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+}
+
+.secondsection {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.imgsymbol {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgsymbol img {
+    max-width: 100px; /* Adjust the size as needed */
+    height: auto;
+}
+
+.imgsymbol span {
+    text-align: center; /* Center the text */
+}
+
+.imgsymbol h1 {
+    margin: 0;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.eforest {
+    margin-top: 20px;
+}
+
+.box1 {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.box1 span {
+    font-size: 1.2em;
+}
+.heading{
+    text-align: center;
+
+}
+
+
+
